@@ -1,6 +1,3 @@
-" Material Theme (https://github.com/equinusocio/material-theme)
-" Scheme: Mattia Astorino
-
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
 " User must set this variable in .vimrc
@@ -59,7 +56,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "material-theme"
+let g:colors_name = "oceanic-material-theme"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr)
